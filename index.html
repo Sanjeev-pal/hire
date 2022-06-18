@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Hiremi</title>
+  <meta
+    content="Hiremi is a platform that provides hiring-related services and shortlisted resumes for corporates/recruiters as well as a platform for corporations to publish their opportunities on our platform."
+    name="About">
+  <meta content="Hiremi , Internship, Internships, Hiremig" name="keywords">
+  <meta name="theme-color" content="#131313>
+
+  <!-- Favicons -->
+  <link rel='shortcut icon' href=" assets/img/favicon.png" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /> -->
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Slider */
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-slider {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .slick-list {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slick-list:focus {
+      outline: none;
+    }
+
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand;
+    }
+
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    .slick-track {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+
+    .slick-track:before,
+    .slick-track:after {
+      display: table;
+      content: '';
+    }
+
+    .slick-track:after {
+      clear: both;
+    }
+
+    .slick-loading .slick-track {
+      visibility: hidden;
+    }
+
+    .slick-slide {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+    }
+
+    [dir='rtl'] .slick-slide {
+      float: right;
+    }
+
+    .slick-slide img {
+      display: block;
+    }
+
+    .slick-slide.slick-loading img {
+      display: none;
+    }
+
+    .slick-slide.dragging img {
+      pointer-events: none;
+    }
+
+    .slick-initialized .slick-slide {
+      display: block;
+    }
+
+    .slick-loading .slick-slide {
+      visibility: hidden;
+    }
+
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+    }
+
+    .slick-arrow.slick-hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <a href="index.html"><img src="assets/img/hiremi.png" class="img-fluid nav-logo"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html"><b>Home</b></a></li>
+          <li><a href="#about"><b>About Us</b></a></li>
+          <li><a href="#footer"><b>Career</b></a></li>
+          <li><a href="contactpage.html"><b>Contact Us</b></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header><!-- #header -->
+
+  <div id="disclaimer" class="disclaimer">
+    <div class="container">
+      <!-- <p class="content"><b>Disclaimer:</b> "Hiremi" is an intellectual property of "Hiremi Enterprises" and is in no way affiliated with or endorsed by "LinkedIn".</p> -->
+
+      <marquee width="100%" direction="left" height="30px">
+        <p class="content"><b>"Hiremi" Inventing Better Future</b></p>
+      </marquee>
+    </div>
+  </div>
+
+  <!-- ======= Intro Section ======= -->
+  <section id="intro" class="clearfix">
+    <div class="container" data-aos="fade-up">
+
+      <div class="intro-img" data-aos="zoom-out" data-aos-delay="200">
+        <img src="assets/img/slider-img-removebg-preview.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info" data-aos="zoom-in" data-aos-delay="100">
+        <h2>Be Prepared !!<br></h2>
+        <h3>Your Perfect Career Guide</h3>
+        <h3>We help create the best opportunities</h3>
+        <div>
+          <form action="" method="">
+            <div class="row">
+              <input type="email" name="email"
+                class="form-control col-8 col-sm-4 col-md-4 col-lg-5 col-xl-6 email-input" placeholder="info@hiremi.in">
+              <!-- <div class="col-1"></div> -->
+              <button class="btn-get-started scrollto ml-sm-3" type="submit">Reach Us</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>A Unified Platform For "Campus to Corporate"</p>
+          <p class="text-center txt">Platform For
+            <strong>
+              <span class="txt-type" data-wait="500"
+                data-words='["Students", "Professionals", "Recruiters", "Companies", "Freelancers"]'>
+              </span>
+            </strong>
+          </p>
+        </header>
+
+        <div class="row about-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p class="description">
+              We are .in startup on a mission to introduce amazing opportunities to students to land their dream jobs in
+              corporate. Hiremi always believes in " Learning By Doing " We are doing a role as a talent acquisition
+              partner for corporate and helping them with providing the right talent as well as we provided one platform
+              for students where they can obtain information about available internships / Live Projects / Jobs /
+              Trainings.
+            </p>
+            <p class="description">
+              <em>Hiremi is a platform that provides hiring-related services and shortlisted resumes for
+                corporates/recruiters as well as a platform for corporations to publish their opportunities on our
+                platform. Along with that for students, Hiremi provides :</em>
+            </p>
+            <p class="description">
+            <ul class="description">
+              <li>Internships Opportunities</li>
+              <li>Job Oppurtunities for Freshers</li>
+              <li>Live Projects Updates</li>
+              <li>Certification Updates</li>
+              <li>Mentoring for College students</li>
+            </ul>
+            </p>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- journey section start -->
+    <div class="ScheduleCard-root commonPadding commonBackgroundGrey optimizedHidden">
+      <h2 class="commonHeader">
+        The HIREMI Journey
+      </h2>
+      <div class="ScheduleCard-body commonShadow commonRadius">
+        <p class="mSmall-text">
+          Say hello to your dream job with HIREMI
+        </p>
+        <div class="imageGrid">
+          <hr class="horizontalBar">
+          <div class="imageContainer">
+            <div class="image-bases">
+              <img src="assets/img/ux.png" scheduleImg" alt="Hired"
+                src="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/TakeAMCAT.svg">
+            </div>
+            <div class="imageText">Take HIREMI</div>
+          </div>
+          <div class="imageContainer">
+            <div class="image-base">
+              <img data-img="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/GetScore.svg"
+                class="scheduleImg" alt="Hired"
+                src="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/GetScore.svg">
+            </div>
+            <div class="imageText">Get a Score</div>
+          </div>
+          <div class="imageContainer">
+            <div class="image-base">
+              <img data-img="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/StartApply.svg"
+                class="scheduleImg" alt="Hired"
+                src="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/StartApply.svg">
+            </div>
+            <div class="imageText">Start Applying</div>
+          </div>
+          <div class="imageContainer">
+            <div class="image-base">
+              <img data-img="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/GetShortlist.svg"
+                class="scheduleImg" alt="Hired"
+                src="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/GetShortlist.svg">
+            </div>
+            <div class="imageText">Get Shortlisted</div>
+          </div>
+          <div class="imageContainer">
+            <div class="image-base">
+              <img data-img="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/GetHired.svg"
+                class="scheduleImg" alt="Hired"
+                src="https://d13dtqinv406lk.cloudfront.net/laravel-images/newScheduleCard/GetHired.svg">
+            </div>
+            <div class="imageText">Get Hired</div>
+          </div>
+        </div>
+        <div class="buttonContainer">
+          <a class="blackBtn commonBtn gaTrigger" data-ga="MyAMCATHomePage,Banner_Schedule,KnowMore"
+            href="/knowing-amcat">Know More</a>
+          <a class="commonBtn redBtn gaTrigger" data-ga="MyAMCATHomePage,Banner_Schedule,BookAMCAT"
+            href="/personal-information?source=newHomePageScheduleCard">BOOK HIREMI</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </section>
+
+
+    <!-- jouney section ends -->
+    <!-- blog section -->
+
+    <section class="blog_section">
+
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            A-Z Getting Hired
+          </h2>
+        </div>
+        <div class="blog_container">
+          <div class="box">
+            <div class="img-box">
+              <img src="assets/img/know.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Know HIREMI
+              </h5>
+              <p>
+                What is HIREMI all about and most importantly, how can it help you be job ready? Should you opt for it?
+                Find the answer to all your HIREMI related questions with us.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="assets/img/interview.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Interview Preparation
+              </h5>
+              <p>
+                To court success in a job interview, you need to know how to create a lasting impression on the
+                interviewer. And, that is where we come in. Keep reading!
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="assets/img/resume.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Resume Writting
+              </h5>
+              <p>
+                Recruiters have a soft corner for resumes that are well-composed and speak their language. So, if you
+                want to excel at resume writing, you would need the help of these resume tips.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="assets/img/customers.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Hiremi Customers
+              </h5>
+              <p>
+                There are so many people who have benefited through Hiremi and stepped up to find their dream job. Then
+                why can’t you? Read about their success journey and take some inspiration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- end blog section -->
+
+
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us">
+        <div class="container" data-aos="fade-up">
+          <div class="row row-eq-height justify-content-center">
+
+            <div class="col-lg-4 mb-4">
+              <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fa fa-bullseye"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Mission</h5>
+                  <p class="card-text">
+                    “At Hiremi , our mission is to provide a seamless facility which helps to meet current
+                    requirements of students searching for internships/jobs and corporate by reducing the
+                    time of hiring.“
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+              <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fa fa-eye"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Vision</h5>
+                  <p class="card-text">
+                    “To be a global leader in education domain and help students to achieve their success by
+                    finding the wonderful opportunities on Hiremi platform to land their into dream career.“
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+              <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fa fa-diamond"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Values</h5>
+                  <p class="card-text">
+                    “At Hiremi , We’ve built a culture of trust . Hiremi always believe in ‘Learning By Doing’ .
+                    Our culture makes us one of the most innovative , admired and most dedicated .
+                    These our values connect and inspire us.“
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up" class="number">58,500</span>
+              <p>Community</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up" class="number">399</span>
+              <p>Campus Partners</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up" class="number">410</span>
+              <p>Featured Companies</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-toggle="counter-up" class="number">175</span>
+              <p>Corporate Partners</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Why Us Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <!-- <section id="testimonials" class="section-bg">
+        <div class="container" data-aso="zoom-in">
+
+          <header class="section-header">
+            <h3>Testimonials</h3>
+          </header>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+              <div class="owl-carousel testimonials-carousel">
+
+                <div class="testimonial-item">
+                  <img src="assets/img/SHAHRUKH.png" class="testimonial-img" alt="">
+                  <h3>Shahrukh Khan</h3>
+                  <h4>CRTD Technologies, Bettiah(Bihar)</h4>
+                  <p>
+                    I had an internship offer in hand at a reputed firm but due to covid crisis it was revoked.
+                    In my need of help Hiremi helped me get an opportunity at Starfing Pvt Ltd an equally reputed firm.
+                    I am finishing my summer internship as of now and all thanks to Hiremi.
+                  </p>
+                </div>
+
+                <div class="testimonial-item">
+                  <img src="assets/img/saniya.jpeg" class="testimonial-img" alt="">
+                  <h3>Saniya Chandel</h3>
+                  <h4>CRTD Technologies, Burhanpur(M.P)</h4>
+                  <p>
+                    In the pandemic situation of COVID-19,I am grateful that Hiremi provides interships opportunities
+                    to students. I learned so much from Hiremi, especially skills to work on different platforms and
+                    connect with people. As a result, I feel more confident and empowered for my future.
+                  </p>
+                </div>
+
+                <div class="testimonial-item">
+                  <img src="assets/img/sanjeev.jpeg" class="testimonial-img" alt="">
+                  <h3>Sanjeev Pal</h3>
+                  <h4>CRTD Technologies , Bhopal(M.P)</h4>
+                  <p>
+                    Due to COVID 19 I lost my internship, thanks to Hiremi who helped me to get connected with Finance
+                    company as a finance intern within a week.
+                  </p>
+                </div>
+
+                <div class="testimonial-item">
+                  <img src="assets/img/sharuti.jpeg" class="testimonial-img" alt="">
+                  <h3>Shruti Chourasia</h3>
+                  <h4>Hiremi,Narsinghpur(M.P)</h4>
+                  <p>
+                    I'm thankful to Hiremi for providing me opportunity to find an Internship during this tough time.
+                    Hiremi provides updates on internship opportunities on daily basis which helped me to get internship
+                    of my field & interest. The Hiremi team selflessly guided me to get my dream internship as an
+                    marketing intern. Thank you Hiremi .
+                  </p>
+                </div>
+
+                <div class="testimonial-item">
+                  <img src="assets/img/sachin.jpg" class="testimonial-img" alt="">
+                  <h3>Sachin Nagar</h3>
+                  <h4>Hiremi,Raigarh(M.P)</h4>
+                  <p>
+                    During campus internship drive at my college I got select for an internship at a reputed company,
+                    Because of lockdown it got canceled and Hiremi helped me to connect with a company to get an
+                    internship.
+                  </p>
+                </div>
+
+
+
+
+
+              </div>
+
+            </div>
+          </div>
+
+        </div> -->
+      </section><!-- End Testimonials Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="section-bg">
+        <div class="container" data-aos="fade-up">
+
+          <header class="section-header">
+            <h3>Our Services</h3>
+          </header>
+
+          <div class="row justify-content-center">
+
+            <div class="box-container" data-aos="zoom-in" data-aos-delay="100">
+              <div class="box">
+                <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+                <h4 class="title"><a href="https://www.linkedin.com/company/Hiremi/">For Students</a></h4>
+                <p class="description">
+                <ul class="description">
+                  <li>Internships Opportunities</li>
+                  <li>Job Oppurtunities for Freshers</li>
+                  <li>Live Projects Updates</li>
+                  <li>Certification Updates</li>
+                  <li>LinkedIn Optimisation</li>
+                </ul>
+                </p>
+              </div>
+            </div>
+            <div class="box-container" data-aos="zoom-in" data-aos-delay="100">
+              <div class="box">
+                <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+                <h4 class="title"><a href="CompanyForm.html">For Recruiters & Professionals</a></h4>
+
+                <ul class="description">
+                  <li>Internships Positings</li>
+                  <li>Jobs Postings</li>
+                  <li>Live Projects Postings</li>
+                  <li>Trainings Postings</li>
+                  <li>Workshop Postings</li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="box-container" data-aos="zoom-in" data-aos-delay="200">
+              <div class="box">
+                <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+                <h4 class="title"><a href="ContactForm.php">Full Recruitment Services</a></h4>
+                <p class="description">
+                  We also provides full hiring services, starting from Posting on our platform - Application Screening -
+                  Shortlisting - GD/PI - and atlast Final Onboarding with you.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Services Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3><img src="assets/img/hiremi.png" class="img-fluid nav-logo"></h3>
+            <p>Hiremi Office, B-nest Bhopal,Smart City Development CORPORATION Limited Zone-14,Madhya Pradesh 462023</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+              <li><a href="#why-us">Why Us?</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4   col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <strong>Email:</strong> info@hiremi.in<br>
+              <span class="tab">hr@hiremi.in</span> <br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/Hiremi/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/Hiremi.in/?igshid=1wi0env8yowth" class="instagram"><i
+                  class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/Hiremi_" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/HireMi-101805715838538/" class="facebook"><i class="fa fa-facebook"></i></a>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-2 col-md-6 footer-app-links">
+            <h4 class="ml-sm-3">Coming Soon...</h4>
+            <div class="col-2" id="playstore"><img src="./assets/img/googleplaybadge.png" alt="Google play"></div>
+            <div class="col-2 mt-2" id="applestore"><img src="./assets/img/appstorebadge.png" alt="Google play"></div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        Copyright &copy; <strong>Hiremi 2022</strong>. All Rights Reserved
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+
+</html>
